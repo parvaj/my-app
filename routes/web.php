@@ -22,18 +22,15 @@ Route::post('expensecategory/create','App\Http\Controllers\ExpenseCategoryContro
 Route::delete('expensecategory/delete/{id}','App\Http\Controllers\ExpenseCategoryController@destroy');
 Route::put('expensecategory/update/{id}','App\Http\Controllers\ExpenseCategoryController@update');
 
-
 Route::get('dailyexpense','App\Http\Controllers\DailyExpenseController@index');
 Route::post('stadailyexpenseff/create','App\Http\Controllers\DailyExpenseController@create');
 Route::delete('dailyexpense/delete/{id}','App\Http\Controllers\DailyExpenseController@destroy');
 Route::put('dailyexpense/update/{id}','App\Http\Controllers\DailyExpenseController@update');
 
-
 Route::get('staff','App\Http\Controllers\StaffController@index');
 Route::post('staff/create','App\Http\Controllers\StaffController@create');
 Route::delete('staff/delete/{id}','App\Http\Controllers\StaffController@destroy');
 Route::put('staff/update/{id}','App\Http\Controllers\StaffController@update');
-
 
 Route::get('bank','App\Http\Controllers\BankController@index');
 Route::post('bank/create','App\Http\Controllers\BankController@create');
@@ -45,12 +42,10 @@ Route::post('transaction/create','App\Http\Controllers\TransactionController@cre
 Route::delete('transaction/delete/{id}','App\Http\Controllers\TransactionController@destroy');
 Route::put('transaction/update/{id}','App\Http\Controllers\TransactionController@update');
 
-
 Route::get('position','App\Http\Controllers\PositionController@index');
 Route::post('position/create','App\Http\Controllers\PositionController@create');
 Route::delete('position/delete/{id}','App\Http\Controllers\PositionController@destroy');
 Route::put('position/update/{id}','App\Http\Controllers\PositionController@update');
-
 
 Route::get('department','App\Http\Controllers\DepartmentController@index');
 Route::post('department/create','App\Http\Controllers\DepartmentController@create');
